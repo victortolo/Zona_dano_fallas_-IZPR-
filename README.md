@@ -7,6 +7,6 @@ El flujo de procesamiento implementado sigue estos pasos secuenciales:
 Cálculo de Longitud: Se determina la longitud geométrica de cada segmento de falla individual presente en el conjunto de datos vectoriales.
 Cálculo de la Zona de Daño: Se aplica la constante empírica sugerida por la normativa técnica colombiana. La zona de daño se define mediante la siguiente expresión: ZD= (L*0.3)/100
 Generación de Buffer: Utilizando el valor resultante de ZD como radio, se genera un área de influencia (buffer) para cada segmento. Este polígono resultante representa la extensión espacial de la incidencia estructural para el cálculo del IZPR.
-## Ejemplo de aplicacion
+## Ejemplo de aplicación
 A modo de ejemplificación y validación de los resultados, el script se ejecutó utilizando la capa de Fallas de Colombia (basada en la información oficial del igac https://www.colombiaenmapas.gov.co/#).
 Este ejercicio permite visualizar cómo la metodología se adapta a la complejidad tectónica del territorio nacional, calculando áreas de influencia diferenciadas según la escala y longitud de los trazos de falla presentes en las diversas provincias geológicas del país. El resultado es un producto cartográfico listo para ser integrado como el parámetro de "Incidencia Estructural" en el modelamiento multivariado del IZPR.
