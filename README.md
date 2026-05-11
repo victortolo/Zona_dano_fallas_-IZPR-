@@ -1,4 +1,4 @@
-### Cálculo de Zona de Daño de Fallas - Incidencia Estructural (IZPR)
+# Cálculo de Zona de Daño de Fallas - Incidencia Estructural (IZPR)
 Este repositorio contiene una herramienta automatizada para el cálculo de la incidencia estructural dentro del modelo de Índice de Zonas Potenciales de Recarga (IZPR). El procedimiento se basa estrictamente en los lineamientos de la Guía Metodológica para la Identificación de Zonas de Recarga y de Acuíferos del Ministerio de Ambiente y Desarrollo Sostenible de Colombia.
 ## Descripción 
 El código permite cuantificar la influencia de las estructuras geológicas (fallas) en la permeabilidad secundaria del terreno. Para ello, se determina la Zona de Daño (ZD) de cada segmento de falla, la cual define el área de influencia donde la fracturación aumenta la capacidad de infiltración y recarga de agua subterránea.
